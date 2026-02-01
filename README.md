@@ -1,70 +1,69 @@
-# Discover Chhattisgarh
+# 🏔️ Discover Chhattisgarh
 
-A web project to **explore the beauty, culture and tourist destinations of Chhattisgarh**, built with modern web technologies.
+> **"Living History: The heartbeat of Bastar."**
+> An immersive cultural exploration platform designed to showcase the vibrant heritage, ancient architecture, and natural wonders of Chhattisgarh, India.
+> Built with a modern tech stack including React, TypeScript, and Shadcn UI.
 
-## 🌍 About
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-Discover Chhattisgarh is a front-end website designed to showcase the amazing attractions, heritage spots, natural landscapes, and cultural richness of the Indian state of Chhattisgarh — helping visitors explore and learn about the region online.
+## 📖 Project Overview
 
-_Chhattisgarh_ is known for its lush forests, waterfalls like Chitrakote and Tirathgarh, ancient temples, wildlife sanctuaries, tribal traditions, and adventure destinations. :contentReference[oaicite:1]{index=1}
+**Discover Chhattisgarh** is a digital initiative to promote tourism and heritage awareness for the state of Chhattisgarh. The platform provides a curated experience for travelers, focusing on:
+* **Cultural Preservation:** Highlighting the unique traditions of Bastar and tribal communities.
+* **Architectural Marvels:** Detailed guides to the temples of Sirpur, Rajim, and Dantewada.
+* **Natural Wonders:** Exploration of Chitrakote Falls, Tirathgarh, and state wildlife sanctuaries.
 
-## 🚀 Features
+The application is built for high performance, featuring a premium dark-and-gold aesthetic that reflects the royal and ancient history of the region.
 
-- 📌 Responsive static website
-- 📍 Information on major tourist places
-- 🎨 Beautiful UI with scroll animations
-- 📱 Works on both mobile and desktop
-- 🧠 Easy to customize and extend
+## ✨ Key Features
 
-## 🧱 Built With
+* **📍 Interactive Discovery:** Navigate through categories like Temples, History, Culture, and Festivals.
+* **🎭 Living History:** Immersive storytelling about the "Heartbeat of Bastar."
+* **🏨 Stay & Explore:** Integrated suggestions for local stays and heritage resorts.
+* **🖼️ Visual Gallery:** A high-resolution showcase of the state's most iconic landmarks.
+* **⚡ Modern Performance:** Optimized with Vite for near-instant load times and fluid transitions.
+* **📱 Fully Responsive:** Seamlessly optimized for mobile, tablet, and desktop devices.
 
-This project uses the following tools and frameworks:
+## 🛠️ Tech Stack
 
-- **Vite** – Fast build tool
-- **TypeScript** – Static typing for JavaScript
-- **React** – UI library
-- **shadcn-ui** – Component design system
-- **Tailwind CSS** – Utility-first CSS framework
+* **Frontend:** [React](https://reactjs.org/) (Vite)
+* **Language:** [TypeScript](https://www.typescriptlang.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) + [Shadcn UI](https://ui.shadcn.com/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
+* **State Management:** React Hooks
 
-## 💻 Getting Started
-
-To run this project locally:
+## 🚀 Getting Started
 
 ### Prerequisites
+- Node.js (v18 or higher)
+- npm or bun
 
-Ensure you have **Node.js** and a package manager (npm / bun) installed.
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Kunal6054/Discover-Chhattisgarh.git](https://github.com/Kunal6054/Discover-Chhattisgarh.git)
+   cd Discover-ChhattisgarhInstall dependencies:
 
-### Install Dependencies
-
-```bash
-git clone https://github.com/Kunal6054/Discover-Chhattisgarh.git
-cd Discover-Chhattisgarh
+Bash
 npm install
-Start Dev Server
+Start the development server:
+
+Bash
 npm run dev
-Visit http://localhost:5173 (or the shown address) to view the website in your browser.
+📂 Project Structure
+Plaintext
+src/
+├── components/       # Custom UI components (Hero, Navbar, DestinationCards)
+├── pages/            # View pages (Home, Temples, Culture, Gallery)
+├── hooks/            # Custom React hooks for logic reuse
+├── lib/              # Utility functions and shadcn configuration
+├── assets/           # Local images and icons
+└── App.tsx           # Application entry point & routing
+👤 Author
+Kunal
 
-📦 Deployment
-The website can be deployed on any static hosting platform (GitHub Pages, Netlify, Vercel):
-
-Build the production bundle:
-
-npm run build
-Upload the dist/build folder to your chosen host.
-
-🛠 Contributing
-Contributions, improvements, and bug reports are welcome!
-
-Fork this repository
-
-Create a new branch (git checkout -b feature/xyz)
-
-Make your changes
-
-Open a pull request
-
-📄 License
-This project is open source — add a license here if you choose (MIT, GPL, Apache, etc.)
-
-🤝 Acknowledgments
-Thanks to all online tutorials and open source contributors whose examples helped shape this project 🙌
+GitHub: @Kunal6054
