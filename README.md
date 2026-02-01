@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# Discover Chhattisgarh
 
-## Project info
+A web project to **explore the beauty, culture and tourist destinations of Chhattisgarh**, built with modern web technologies.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🌍 About
 
-## How can I edit this code?
+Discover Chhattisgarh is a front-end website designed to showcase the amazing attractions, heritage spots, natural landscapes, and cultural richness of the Indian state of Chhattisgarh — helping visitors explore and learn about the region online.
 
-There are several ways of editing your application.
+_Chhattisgarh_ is known for its lush forests, waterfalls like Chitrakote and Tirathgarh, ancient temples, wildlife sanctuaries, tribal traditions, and adventure destinations. :contentReference[oaicite:1]{index=1}
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- 📌 Responsive static website
+- 📍 Information on major tourist places
+- 🎨 Beautiful UI with scroll animations
+- 📱 Works on both mobile and desktop
+- 🧠 Easy to customize and extend
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧱 Built With
 
-**Use your preferred IDE**
+This project uses the following tools and frameworks:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Vite** – Fast build tool
+- **TypeScript** – Static typing for JavaScript
+- **React** – UI library
+- **shadcn-ui** – Component design system
+- **Tailwind CSS** – Utility-first CSS framework
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💻 Getting Started
 
-Follow these steps:
+To run this project locally:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Ensure you have **Node.js** and a package manager (npm / bun) installed.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Install Dependencies
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/Kunal6054/Discover-Chhattisgarh.git
+cd Discover-Chhattisgarh
+npm install
+Start Dev Server
 npm run dev
-```
+Visit http://localhost:5173 (or the shown address) to view the website in your browser.
 
-**Edit a file directly in GitHub**
+📦 Deployment
+The website can be deployed on any static hosting platform (GitHub Pages, Netlify, Vercel):
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Build the production bundle:
 
-**Use GitHub Codespaces**
+npm run build
+Upload the dist/build folder to your chosen host.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🛠 Contributing
+Contributions, improvements, and bug reports are welcome!
 
-## What technologies are used for this project?
+Fork this repository
 
-This project is built with:
+Create a new branch (git checkout -b feature/xyz)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Make your changes
 
-## How can I deploy this project?
+Open a pull request
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+📄 License
+This project is open source — add a license here if you choose (MIT, GPL, Apache, etc.)
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🤝 Acknowledgments
+Thanks to all online tutorials and open source contributors whose examples helped shape this project 🙌
