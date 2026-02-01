@@ -55,15 +55,23 @@ Start the development server:
 Bash
 npm run dev
 📂 Project Structure
-Plaintext
 src/
-├── components/       # Custom UI components (Hero, Navbar, DestinationCards)
-├── pages/            # View pages (Home, Temples, Culture, Gallery)
-├── hooks/            # Custom React hooks for logic reuse
-├── lib/              # Utility functions and shadcn configuration
-├── assets/           # Local images and icons
-└── App.tsx           # Application entry point & routing
-👤 Author
-Kunal
 
-GitHub: @Kunal6054
+├── components/   # Reusable UI components (Hero, Navbar, Cards)
+
+├── pages/        # View-level components (Home, History, Gallery)
+
+├── hooks/        # Custom React hooks for logic reuse
+
+├── lib/          # Global utilities and Shadcn configuration
+
+├── assets/       # Static media and local icons
+
+└── App.tsx       # Routing and layout entry point
+
+ 👤 Author
+ Kunal
+
+ GitHub: @Kunal6054
+
+Role: Lead Developer
