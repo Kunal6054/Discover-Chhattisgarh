@@ -72,6 +72,6 @@ src/
  👤 Author
  Kunal
 
- GitHub: @Kunal6054
+ GitHub: @KunalNirmalkar07
 
 Role: Lead Developer
